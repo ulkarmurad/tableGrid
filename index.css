@@ -1,0 +1,68 @@
+.Table {
+  display: table;
+  width: 100%;
+}
+
+nav {
+  background-color: #ACB1D6;
+  height: 60px;
+  text-align: center;
+  padding: 3px;
+  margin-bottom: 10px;
+}
+
+.h1 {
+  font-weight: bold;
+  font-size: larger;
+}
+.Heading {
+  display: table-row;
+  font-weight: bold;
+  text-align: center;
+  background-color: #dbdfea;
+}
+.Row {
+  display: table-row;
+}
+.Cell {
+  display: table-cell;
+  border: solid;
+  border-width: thin;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/*  */
+
+.albums {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 2em;
+  margin: 2em;
+}
+
+.album {
+  background: #8294C4;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  padding:25px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 20px;
+  align-items: center;
+  color: white;
+  font-weight: 100;
+}
+
+.album__artwork {
+  width: 100%;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 700;
+  
+}
+
+
